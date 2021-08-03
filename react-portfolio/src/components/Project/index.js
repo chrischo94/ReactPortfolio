@@ -3,13 +3,19 @@ import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Row } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
-
+import "../../assets/images/audiofreq.JPG"
+import "../../assets/images/pwgen.JPG"
+import "../../assets/images/readmegen.JPG"
+import "../../assets/images/refactoringhw.JPG"
+import "../../assets/images/teamprofgen.JPG"
+import "../../assets/images/tinderforfood.JPG"
 
 function Project() {
   return (
     <Container>
       <Row>
         <Carousel>
+          <Button href="https://chrischo94.github.io/TinderForFood/">
           <Carousel.Item>
             <img
               className="d-block w-100"
@@ -21,6 +27,7 @@ function Project() {
               
             </Carousel.Caption>
           </Carousel.Item>
+          </Button>
           <Carousel.Item>
             <img
               className="d-block w-100"
