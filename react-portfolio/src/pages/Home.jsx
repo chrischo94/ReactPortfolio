@@ -3,7 +3,8 @@ import Header from "../components/Header";
 import Project from "../components/Project"
 import Footer from "../components/Footer"
 import { Row } from "react-bootstrap";
-
+import { Col } from "react-bootstrap";
+import { Container } from "react-bootstrap";
 function Home(){
 return (
   <div>
@@ -18,9 +19,9 @@ return (
       <hr></hr>
       <Row>
         <h4 id="projects">Projects</h4>
-        <Col>
+        
           <Project />
-        </Col>
+       
       </Row>
       <hr></hr>
       <Row>
