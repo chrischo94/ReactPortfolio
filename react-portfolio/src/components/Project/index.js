@@ -1,4 +1,6 @@
 import React from "react";
+import './index.css'
+import { Button } from "react-bootstrap";
 import { Container } from "react-bootstrap";
 import { Carousel } from "react-bootstrap";
 import "../../assets/images/audiofreq.JPG"
@@ -10,7 +12,7 @@ import "../../assets/images/tinderfofood.JPG"
 
 function Project() {
   return (
-    <Container>
+    <Container className="carousel-container">
 
         <Carousel variant="dark">
         
@@ -21,8 +23,9 @@ function Project() {
               alt="AudioFreq"
             />
             <Carousel.Caption>
-              <h3>Audio Freq</h3>
-              
+              <h3 className="text-white bg-dark">Audio Freq</h3>
+              <Button href="https://github.com/chrischo94/audioFreq">Link to GitHub</Button> 
+              <Button href="https://maple-eh-00291.herokuapp.com/">Link to Application</Button> 
             </Carousel.Caption>
           </Carousel.Item>
 
@@ -34,7 +37,9 @@ function Project() {
             />
 
             <Carousel.Caption>
-              <h3>Password Generator</h3>
+              <h3 className="text-info bg-dark">Password Generator</h3>
+              <Button href="https://github.com/chrischo94/passwordGenerator">Link to GitHub</Button> 
+              <Button href="https://chrischo94.github.io/passwordGenerator/">Link to Application</Button> 
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -45,8 +50,9 @@ function Project() {
             />
 
             <Carousel.Caption>
-              <h3>ReadME Generator label</h3>
-            
+              <h3 className="bg-light">ReadME Generator</h3>
+              <Button href="https://github.com/chrischo94/ReadMeGenerator2">Link to GitHub</Button> 
+               
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -57,8 +63,9 @@ function Project() {
             />
 
             <Carousel.Caption>
-              <h3>Refactoring Webpage label</h3>
-              
+              <h3 className="text-success bg-dark">Refactoring Webpage</h3>
+              <Button href="https://github.com/chrischo94/refactoringHW">Link to GitHub</Button> 
+              <Button href="https://chrischo94.github.io/refactoringHW/">Link to Application</Button> 
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -69,8 +76,9 @@ function Project() {
             />
 
             <Carousel.Caption>
-              <h3>Team Profile Generator label</h3>
-             
+              <h3 className="text-warning bg-dark">Team Profile Generator</h3>
+              <Button href="https://github.com/chrischo94/Team-Profile-Generator">Link to GitHub</Button> 
+              
             </Carousel.Caption>
           </Carousel.Item>
           <Carousel.Item>
@@ -81,8 +89,9 @@ function Project() {
             />
 
             <Carousel.Caption>
-              <h3>Tinder for Food label</h3>
-             
+              <h3 className="text-danger bg-dark">Tinder for Food</h3>
+              <Button href="https://github.com/chrischo94/TinderForFood">Link to GitHub</Button> 
+              <Button href="https://chrischo94.github.io/tinderForFood/">Link to Application</Button> 
             </Carousel.Caption>
           </Carousel.Item>
         </Carousel>
